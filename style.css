@@ -8,6 +8,11 @@
   list-style: none;
   text-decoration: none;
 }
+@media (max-width:3000){
+  section{
+    width: 3000px;
+  }
+}
 
 :root {
   --font-primary: "Baloo Da 2", serif;
@@ -427,7 +432,7 @@ header {
 .contato-left {
   width: 35%;
   background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-    url(imagens/quarentena-capa.jpg);
+    url(imagens/android-chrome-192x194.png);
   background-size: cover;
 }
 
@@ -513,11 +518,16 @@ header {
 .sessao-orcamento{
   width: 100%;
   height: 100vh;
-  background: url("./imagens/tecnologia-2.jpg");
+  background: url("./imagens//android-chrome-192x194.png");
   object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width:3000){
+    section{
+      width: 3000px;
+    }
+  }
 }
 
 .orcamento-wrapper{
@@ -537,7 +547,7 @@ header {
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
   background: linear-gradient(to left, #a044ff, #6a3093);
   padding: 0 3rem;
-  color: black;
+  color: #fff;
   font-family: var(--font-primary);
   font-size: 3rem;
   font-weight: lighter;
@@ -592,7 +602,7 @@ footer{
 
 .footer-content p{
   font-family: var(--font-secundary);
-  color: red;
+  color: #a7a7a7;
   font-size: 1.2rem;
 }
 
@@ -618,8 +628,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
+  color: #fff;
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
-
